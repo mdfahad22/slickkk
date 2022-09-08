@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #606869 ;
+}
+
+
+.slider .picture{
+  padding: 0 10px;
+}
+
+.slider .picture img{
+  width: 100%;
+}
+
+#mySlick{
+  margin-top: 3%;
+  position: relative;
+}
+
+#mySlick .slick-dots{
+  text-align: center;
+margin-top: 3%;
+
+}
+
+#mySlick .slick-dots li{
+  display: inline-block;
+  margin-left: 5px;
+
+}
+
+#mySlick .slick-dots button{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  color: transparent;
+}
+
+#mySlick .slick-dots li.slick-active button{
+  background-color: white;
+}
+
+#mySlick .arrows .prev,
+.next{
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: #FF9933 ;
+  z-index: 50;
+  top: 50%;
+  transform: translateY(-100%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+#mySlick .arrows .prev{
+  right: 34%;
+}
+
+#mySlick .arrows .next{
+  left: 34%;
+}
+
+
+#mySlick .deleteBtn button{
+  width: 60px;
+  height: 30px;
+  display: block;
+  background-color: white;
+  margin-left: 92%;
+  cursor: pointer;
+  
+}
